@@ -1,3 +1,11 @@
+photoshopcc:
+  Arch: win64
+  Name: Photoshop CC
+  Description: Photoshop CC 2019.
+  Grade: Gold
+  Category: Software
+  Icon: photoshopcc.svg
+
 epicgamestore:
   Arch: win64
   Name: Epic Games Store
