@@ -9,7 +9,6 @@ Dependencies:
 - courie32
 - mono
 - atmlib
-- fontsmooth=rgb
 - vcrun2008
 - vcrun2010
 - vcrun2012
