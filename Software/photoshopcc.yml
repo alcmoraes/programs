@@ -1,0 +1,35 @@
+Name: photoshopcc
+Description: Adobe Photoshop CC
+Grade: Platinum
+Arch: win64
+
+Dependencies:
+- arial32
+- times32
+- courie32
+- mono
+- atmlib
+- fontsmooth=rgb
+- vcrun2008
+- vcrun2010
+- vcrun2012
+- vcrun2013
+- msxml3
+- msxml6
+
+Parameters:
+  dxvk: true
+  sync: esync
+  discrete_gpu: true
+  
+Executable:
+  name: Photoshop
+  icon: photoshop.svg
+  file: Photoshop.exe
+  path: users/aci1dzero/PhotoshopSE/Photoshop.exe
+  
+Steps:
+- action: install_exe
+  file_name: photoshop_cc.exe
+  url: https://victor.poshtiban.io/p/gictor/photoshopCC/photoshopCC-V19.1.6-2018x64.tgz
+  file_checksum: 6441a8e77c082897a99c2b7b588c9ac4
