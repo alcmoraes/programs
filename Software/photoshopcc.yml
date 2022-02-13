@@ -18,9 +18,9 @@ Dependencies:
 - msxml6
 
 Parameters:
-  dxvk: true
+  dxvk: false
   sync: esync
-  discrete_gpu: true
+  discrete_gpu: false
   
 Executable:
   name: Photoshop
